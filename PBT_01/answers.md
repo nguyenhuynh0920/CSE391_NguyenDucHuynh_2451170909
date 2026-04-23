@@ -29,9 +29,12 @@ Text C Text D (text D in đậm(strong))
 [ Hộp 3 ]
 
 #### Câu A4
-<thead>: tiêu đề cột
-<tbody></tbody>: dữ liệu chính
-<tfoot>: tổng kết
+   <thead>: tiêu đề cột
+      
+   <tbody></tbody>: dữ liệu chính
+
+   <tfoot>: tổng kết
+      
 Lý do không nên dùng table để tạo layout cho trang web:
 1. Không phải thẻ semantic => Google không hiểu cấu trúc.
 2. Khó responsive(table khó co giãn linh hoạt theo màn hình)
